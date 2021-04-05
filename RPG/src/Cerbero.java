@@ -21,7 +21,7 @@ public class Cerbero extends Monstro implements Ataque, Defesa, Energia{
 	 
 	 public void energia(int ex) {
 		 super.energia(ex);
-		 System.out.println(name() + ": Minha energia é: " + ex);
+		 System.out.println(name() + ": Minha energia: " + ex);
 	 }
 
 

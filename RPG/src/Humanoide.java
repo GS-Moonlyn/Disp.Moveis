@@ -1,9 +1,9 @@
 
-public abstract class Humanóide extends Personagem{
+public abstract class Humanoide extends Personagem{
 	private String nome;
 	 private int x, y;
 	 
-	 public Humanóide(String nome) {
+	 public Humanoide(String nome) {
 		super(nome);
 	 }
 	 
@@ -35,7 +35,7 @@ public abstract class Humanóide extends Personagem{
 		 System.out.println("Posicao - x: " + x + " y: " + y);
 	 }
 	 
-	 public float calcularDistancia(Humanóide animal) {
+	 public float calcularDistancia(Humanoide animal) {
 		 float _x = (this.x - animal.x);
 		 float _y = (this.y - animal.y);
 		 

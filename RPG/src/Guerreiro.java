@@ -1,5 +1,5 @@
 
-public class Guerreiro extends Humanóide implements Ataque, Defesa, Energia, Experiencia{
+public class Guerreiro extends Humanoide implements Ataque, Defesa, Energia, Experiencia{
          
 	
 	 
@@ -14,20 +14,20 @@ public class Guerreiro extends Humanóide implements Ataque, Defesa, Energia, Ex
 	 }
 	 
 	 public void emitirSom2() {
-		 System.out.println(name() + ": Será tu mesmo!!");
+		 System.out.println(name() + ": Vai ser tu mesmo!!");
 	 }
 	 
 	 public void emitirSom3() {
-		 System.out.println(name() + ": Hmm, vou até lá!!");
+		 System.out.println(name() + ": Hmm, vou para la!!");
 	 }
 
 
 	 public void emitirSom4() {
-		 System.out.println(name() + ": Quem será o próximo?!");
+		 System.out.println(name() + ": Quem sera o proximo?!");
 	 }
 	 
 	 public void emitirSom5() {
-		 System.out.println(name() + ": Achei a vítima!");
+		 System.out.println(name() + ": Achei a vitima!");
 	 }
 	 
 	 public void deslocar(int dx, int dy) {
@@ -38,12 +38,12 @@ public class Guerreiro extends Humanóide implements Ataque, Defesa, Energia, Ex
 	 
 	 public void energia(int ex) {
 		 super.energia(ex);
-		 System.out.println(name() + ": Minha energia é: " + ex);
+		 System.out.println(name() + ": Minha energia: " + ex);
 	 }
 	 
 	 public void experiencia(int xx) {
 		 super.exp(xx);
-		 System.out.println(name() + ": Minha experiencia é: " + xx);
+		 System.out.println(name() + ": Minha experiencia: " + xx);
 	 }
 
 

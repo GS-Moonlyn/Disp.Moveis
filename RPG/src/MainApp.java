@@ -11,7 +11,7 @@ public class MainApp {
 		Guerreiro b1 = new Guerreiro("Guerreiro");
 		b1.setPosition(30, 10);
 		
-		Templário c1 = new Templário("Templário");
+		Templario c1 = new Templario("Templario");
 		c1.setPosition(70, 20);
 		
 		Ladino d1 = new Ladino("Ladino");
@@ -93,7 +93,7 @@ public class MainApp {
 		
 		ataque10(a1, b1, c1, d1, e1, f1);
 		
-		System.out.println(b1.getName() + " Vencedor"
+		System.out.println("Vencedor: " + b1.getName()
 				);
 		b1.experiencia(6);
 		
@@ -101,7 +101,7 @@ public class MainApp {
 	}
 
 
-	public static void ataque1(Mago a1, Guerreiro b1, Templário c1, Ladino d1, Engia e1, Cerbero f1) {
+	public static void ataque1(Mago a1, Guerreiro b1, Templario c1, Ladino d1, Engia e1, Cerbero f1) {
 		
 		System.out.println(b1.name() + " com " + b1.atacar() + " de ataque "
 				+ "atacou " + d1.name() + " com uma espadada");
@@ -111,7 +111,7 @@ public class MainApp {
     
 	
 	
-    public static void defesa1(Mago a1, Guerreiro b1, Templário c1, Ladino d1, Engia e1, Cerbero f1) {
+    public static void defesa1(Mago a1, Guerreiro b1, Templario c1, Ladino d1, Engia e1, Cerbero f1) {
 		
 		System.out.println(d1.name() + " defendeu " + d1.defender() + " por cento"
 				+ " do ataque do: " + b1.name());
@@ -121,14 +121,14 @@ public class MainApp {
 		
 	}
     
-    public static void ataque2(Mago a1, Guerreiro b1, Templário c1, Ladino d1, Engia e1, Cerbero f1) {
+    public static void ataque2(Mago a1, Guerreiro b1, Templario c1, Ladino d1, Engia e1, Cerbero f1) {
 		
 		System.out.println(d1.name() + " com " + d1.atacar() + " de ataque "
 				+ "atacou " + b1.name() + " com uma facada");
 		
 	}
     
-    public static void defesa2(Mago a1, Guerreiro b1, Templário c1, Ladino d1, Engia e1, Cerbero f1) {
+    public static void defesa2(Mago a1, Guerreiro b1, Templario c1, Ladino d1, Engia e1, Cerbero f1) {
 		
 		System.out.println(b1.name() + " defendeu " + b1.defender() + " por cento"
 				+ " do ataque do: " + d1.name());
@@ -136,7 +136,7 @@ public class MainApp {
 	}
     
     
-    public static void ataque3(Mago a1, Guerreiro b1, Templário c1, Ladino d1, Engia e1, Cerbero f1) {
+    public static void ataque3(Mago a1, Guerreiro b1, Templario c1, Ladino d1, Engia e1, Cerbero f1) {
 		
 		System.out.println(b1.name() + " com " + b1.atacar() + " de ataque "
 				+ "atacou " + d1.name() + " com uma facada");
@@ -145,33 +145,33 @@ public class MainApp {
 		
 	}
     
-    public static void ataque4(Mago a1, Guerreiro b1, Templário c1, Ladino d1, Engia e1, Cerbero f1) {
+    public static void ataque4(Mago a1, Guerreiro b1, Templario c1, Ladino d1, Engia e1, Cerbero f1) {
 		
 		System.out.println(b1.name() + " com " + b1.atacar() + " de ataque "
 				+ "atacou " + c1.name() + " com uma espadada");
 		
 	}
     
-    public static void defesa3(Mago a1, Guerreiro b1, Templário c1, Ladino d1, Engia e1, Cerbero f1) {
+    public static void defesa3(Mago a1, Guerreiro b1, Templario c1, Ladino d1, Engia e1, Cerbero f1) {
 		
 		System.out.println(c1.name() + " defendeu " + c1.defender() + " por cento"
 				+ " do ataque do: " + b1.name());
 	}
     
-    public static void ataque5(Mago a1, Guerreiro b1, Templário c1, Ladino d1, Engia e1, Cerbero f1) {
+    public static void ataque5(Mago a1, Guerreiro b1, Templario c1, Ladino d1, Engia e1, Cerbero f1) {
 		
 		System.out.println(c1.name() + " com " + c1.atacar() + " de ataque "
 				+ "atacou " + b1.name() + " com uma apunhalada");
 		
 	}
     
-    public static void defesa4(Mago a1, Guerreiro b1, Templário c1, Ladino d1, Engia e1, Cerbero f1) {
+    public static void defesa4(Mago a1, Guerreiro b1, Templario c1, Ladino d1, Engia e1, Cerbero f1) {
 		
 		System.out.println(b1.name() + " defendeu " + b1.defender() + " por cento"
 				+ " do ataque do: " + c1.name());
 	}
     
-    public static void ataque6(Mago a1, Guerreiro b1, Templário c1, Ladino d1, Engia e1, Cerbero f1) {
+    public static void ataque6(Mago a1, Guerreiro b1, Templario c1, Ladino d1, Engia e1, Cerbero f1) {
 		
 		System.out.println(b1.name() + " com " + b1.atacar() + " de ataque "
 				+ "atacou " + c1.name() + " com uma espadada");
@@ -180,7 +180,7 @@ public class MainApp {
 	}
     
     
-    public static void ataque7(Mago a1, Guerreiro b1, Templário c1, Ladino d1, Engia e1, Cerbero f1) {
+    public static void ataque7(Mago a1, Guerreiro b1, Templario c1, Ladino d1, Engia e1, Cerbero f1) {
  		
 		System.out.println(b1.name() + " com " + b1.atacar() + " de ataque "
 				+ "atacou " + a1.name() + " com uma espadada");
@@ -188,25 +188,25 @@ public class MainApp {
 		
 	}
     
-    public static void defesa5(Mago a1, Guerreiro b1, Templário c1, Ladino d1, Engia e1, Cerbero f1) {
+    public static void defesa5(Mago a1, Guerreiro b1, Templario c1, Ladino d1, Engia e1, Cerbero f1) {
 		
 		System.out.println(a1.name() + " defendeu " + a1.defender() + " por cento"
 				+ " do ataque do: " + b1.name());
 	}
     
-    public static void ataque8(Mago a1, Guerreiro b1, Templário c1, Ladino d1, Engia e1, Cerbero f1) {
+    public static void ataque8(Mago a1, Guerreiro b1, Templario c1, Ladino d1, Engia e1, Cerbero f1) {
  		
 		System.out.println(a1.name() + " com " + a1.atacar() + " de ataque "
 				+ "atacou " + b1.name() + " com uma magia");
 	}
     
-    public static void defesa6(Mago a1, Guerreiro b1, Templário c1, Ladino d1, Engia e1, Cerbero f1) {
+    public static void defesa6(Mago a1, Guerreiro b1, Templario c1, Ladino d1, Engia e1, Cerbero f1) {
 		
 		System.out.println(b1.name() + " defendeu " + b1.defender() + " por cento"
 				+ " do ataque do: " + a1.name());
 	}
     
-    public static void ataque9(Mago a1, Guerreiro b1, Templário c1, Ladino d1, Engia e1, Cerbero f1) {
+    public static void ataque9(Mago a1, Guerreiro b1, Templario c1, Ladino d1, Engia e1, Cerbero f1) {
 		
 		System.out.println(b1.name() + " com " + b1.atacar() + " de ataque "
 				+ "atacou " + a1.name() + " com uma espadada");
@@ -214,7 +214,7 @@ public class MainApp {
 		System.out.println(a1.name() + " Morreu");
 	}
     
-    public static void ataque10(Mago a1, Guerreiro b1, Templário c1, Ladino d1, Engia e1, Cerbero f1) {
+    public static void ataque10(Mago a1, Guerreiro b1, Templario c1, Ladino d1, Engia e1, Cerbero f1) {
 		
 		System.out.println(b1.name() + " com " + b1.atacar() + " de ataque "
 				+ "atacou " + e1.name() + " e " + f1.name() + " com uma espadada em cada");

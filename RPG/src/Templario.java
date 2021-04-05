@@ -1,9 +1,9 @@
 
-public class Templário extends Humanóide implements Ataque, Defesa, Energia, Experiencia{
+public class Templario extends Humanoide implements Ataque, Defesa, Energia, Experiencia{
          
 	
 	 
-	 public Templário(String nome) {
+	 public Templario(String nome) {
 		 super(nome);
 	 }
 	 
@@ -22,12 +22,12 @@ public class Templário extends Humanóide implements Ataque, Defesa, Energia, E
 	 
 	 public void energia(int ex) {
 		 super.energia(ex);
-		 System.out.println(name() + ": Minha energia é: " + ex);
+		 System.out.println(name() + ": Minha energia: " + ex);
 	 }
 	 
 	 public void experiencia(int xx) {
 		 super.exp(xx);
-		 System.out.println(name() + ": Minha experiencia é: " + xx);
+		 System.out.println(name() + ": Minha experiencia: " + xx);
 	 }
 
 

@@ -1,5 +1,5 @@
 
-public class Ladino extends Humanóide implements Ataque, Defesa, Energia, Experiencia{
+public class Ladino extends Humanoide implements Ataque, Defesa, Energia, Experiencia{
          
 	
 	 
@@ -10,7 +10,7 @@ public class Ladino extends Humanóide implements Ataque, Defesa, Energia, Exper
 	 
 	 
 	 public void emitirSom() {
-		 System.out.println("Au au!!");
+		 System.out.println("Ali!");
 	 }
 	 
 	 public void deslocar(int dx, int dy) {
@@ -21,12 +21,12 @@ public class Ladino extends Humanóide implements Ataque, Defesa, Energia, Exper
 	 
 	 public void energia(int ex) {
 		 super.energia(ex);
-		 System.out.println(name() + ": Minha energia é: " + ex);
+		 System.out.println(name() + ": Minha energia: " + ex);
 	 }
 	 
 	 public void experiencia(int xx) {
 		 super.exp(xx);
-		 System.out.println(name() + ": Minha experiencia é: " + xx);
+		 System.out.println(name() + ": Minha experiencia: " + xx);
 	 }
 
 
